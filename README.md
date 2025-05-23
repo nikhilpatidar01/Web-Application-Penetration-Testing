@@ -68,11 +68,12 @@
 
 ## 📤 Working with Forms & SuperGlobals
 
-* 🔎 [$\_GET ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/1.%20$_GET.md#_get)
-* ✍️ [$\_POST ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/2.%20%24_POST.md#_post-in-php)
+* 🔎 [$\_GET](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/1.%20$_GET.md#_get)
+* ✍️ [$\_POST](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/2.%20%24_POST.md#_post-in-php)
 * 📥 [$\_REQUEST](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/3.%20%24_REQUEST.md#_request-in-php)
-* 🌐 [$\_SERVER ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/4.%20$_SERVER.md#_server)
-* 📎 [$\_FILES ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/5.%20$_FILES.md#_files-upload-in-php)
-* [$_COOKIE](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/6.%20%24_COOKIE.md#_cookie)
+* 🌐 [$\_SERVER](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/4.%20$_SERVER.md#_server)
+* 📎 [$\_FILES](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/5.%20$_FILES.md#_files-upload-in-php)
+* 🍪 [$\_COOKIE](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/6.%20%24_COOKIE.md#_cookie)
+
 ---
 
