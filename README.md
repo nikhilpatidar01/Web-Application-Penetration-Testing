@@ -45,7 +45,7 @@
 ## 📝 Basic PHP Concepts
 
 * 💬 [Using Comments in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/4.%20PHP%20Data%20Types/PHP%20Comments.md)
-* 📤 [5 Ways to Output PHP in HTML](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/4.%20PHP%20Data%20Types/PHP%20HTML%20Output%205%20Methods.md)
+* 📤 [5 Ways to Output PHP in HTML](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/4.%20PHP%20Data%20Types/PHP%20HTML%20Output%205%20s.md)
 * ➕ [HTML Output with PHP Calculations](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/4.%20PHP%20Data%20Types/PHP%20for%20%20Calculations.md)
 
 ---
@@ -68,11 +68,11 @@
 
 ## 📤 Working with Forms & SuperGlobals
 
-* 🔎 [$\_GET Method](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/1.%20%24_GET%20Method.md)
-* ✍️ [$\_POST Method](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/2.%20%24_POST%20Method.md)
-* 📥 [$\_REQUEST Method](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/3.%20%24_REQUEST%20%20Method.md)
-* 🌐 [$\_SERVER Method](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/4.%20%24_SERVER%20Method.md)
-* 📎 [$\_FILES Method](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/5.%20%24_FILES%20Method.md)
+* 🔎 [$\_GET ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/1.%20%24_GET%20.md)
+* ✍️ [$\_POST ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/2.%20%24_POST%20.md)
+* 📥 [$\_REQUEST ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/3.%20%24_REQUEST%20%20.md)
+* 🌐 [$\_SERVER ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/4.%20%24_SERVER%20.md)
+* 📎 [$\_FILES ](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/5.%20%24_FILES%20.md)
 
 ---
 
