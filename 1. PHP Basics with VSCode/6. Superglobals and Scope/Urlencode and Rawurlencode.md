@@ -1,0 +1,130 @@
+
+# Urlencode and Rawurlencode in PHP
+
+## PHP `urlencode()` vs `rawurlencode()`
+
+This guide demonstrates how to **safely encode URL parameters** using the `urlencode()` and `rawurlencode()` functions in PHP.
+
+---
+
+## 🔹 Purpose of Encoding
+
+When passing values through URLs, spaces and special characters (like `&`, `?`, `=`, etc.) can break the link or cause unexpected behavior.
+To avoid this, PHP provides two functions for URL encoding:
+
+### 1. `urlencode()`
+
+* Encodes a string to be used in a **query string** (e.g., after `?`).
+* **Replaces spaces** with `+` and encodes special characters using percent encoding.
+
+### 2. `rawurlencode()`
+
+* Encodes a string to be used in a **URL path segment**.
+* **Replaces spaces** with `%20` instead of `+`.
+
+---
+
+## Use Case: Encoding URL Parameters
+
+### Example: `urlencode_and_rawurlencode.php`
+
+```php
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Urlencode and Rawurlencode</title>
+</head>
+<body>
+<?php
+$page_name = "Second Page";
+$slink_name = "second_page";
+$id = 6;
+$name = "Johnson & Johnson";
+?>
+
+<!-- Without encoding -->
+Link without encode:  
+<a href="<?php echo $slink_name; ?>.php?name=<?php echo $name; ?>&id=<?php echo $id; ?>">
+    <?php echo $page_name; ?>
+</a><br />
+Example: second_page.php?name=Johnson & Johnson&id=6  
+<br /><br />
+
+<!-- With urlencode() -->
+Link with urlencode:  
+<a href="<?php echo $slink_name; ?>.php?name=<?php echo urlencode($name); ?>&id=<?php echo $id; ?>">
+    <?php echo $page_name; ?>
+</a><br />
+Example: second_page.php?name=Johnson+%26+Johnson&id=6  
+<br /><br />
+
+<!-- Combined example -->
+<?php
+$page = "about us";
+$quote = "ethical hacking";
+
+$link1 = '/nikhilpatidar/' . rawurlencode($page) . "?quote=" . urlencode($quote);
+$link2 = '/nikhilpatidar/' . urlencode($page) . "?quote=" . rawurlencode($quote);
+
+echo "Rawurlencode Page + Urlencode Quote: <a href=\"$link1\">$link1</a><br />";
+echo "Urlencode Page + Rawurlencode Quote: <a href=\"$link2\">$link2</a><br />";
+?>
+</body>
+</html>
+```
+
+---
+
+## Comparison Table: Encoding Output for Characters
+
+| Character | `urlencode()` Output | `rawurlencode()` Output | Description / Notes            |                     |
+| --------- | -------------------- | ----------------------- | ------------------------------ | ------------------- |
+| Space     | `+`                  | `%20`                   | Space character                |                     |
+| `!`       | `%21`                | `%21`                   | Exclamation mark               |                     |
+| `"`       | `%22`                | `%22`                   | Double quote                   |                     |
+| `#`       | `%23`                | `%23`                   | Number sign / Hash             |                     |
+| `$`       | `%24`                | `%24`                   | Dollar sign                    |                     |
+| `%`       | `%25`                | `%25`                   | Percent sign                   |                     |
+| `&`       | `%26`                | `%26`                   | Ampersand                      |                     |
+| `'`       | `%27`                | `%27`                   | Single quote / Apostrophe      |                     |
+| `(`       | `%28`                | `%28`                   | Left parenthesis               |                     |
+| `)`       | `%29`                | `%29`                   | Right parenthesis              |                     |
+| `*`       | `%2A`                | `%2A`                   | Asterisk                       |                     |
+| `+`       | `%2B`                | `%2B`                   | Plus sign                      |                     |
+| `,`       | `%2C`                | `%2C`                   | Comma                          |                     |
+| `-`       | `-` (not encoded)    | `-` (not encoded)       | Hyphen / Dash (safe character) |                     |
+| `.`       | `.` (not encoded)    | `.` (not encoded)       | Period (safe character)        |                     |
+| `/`       | `%2F`                | `%2F`                   | Forward slash                  |                     |
+| `:`       | `%3A`                | `%3A`                   | Colon                          |                     |
+| `;`       | `%3B`                | `%3B`                   | Semicolon                      |                     |
+| `<`       | `%3C`                | `%3C`                   | Less than                      |                     |
+| `=`       | `%3D`                | `%3D`                   | Equal sign                     |                     |
+| `>`       | `%3E`                | `%3E`                   | Greater than                   |                     |
+| `?`       | `%3F`                | `%3F`                   | Question mark                  |                     |
+| `@`       | `%40`                | `%40`                   | At sign                        |                     |
+| `[`       | `%5B`                | `%5B`                   | Left square bracket            |                     |
+| `\`       | `%5C`                | `%5C`                   | Backslash                      |                     |
+| `]`       | `%5D`                | `%5D`                   | Right square bracket           |                     |
+| `^`       | `%5E`                | `%5E`                   | Caret (circumflex)             |                     |
+| `_`       | `_` (not encoded)    | `_` (not encoded)       | Underscore (safe character)    |                     |
+| `` ` ``   | `%60`                | `%60`                   | Grave accent                   |                     |
+| `{`       | `%7B`                | `%7B`                   | Left curly brace               |                     |
+| \`        | \`                   | `%7C`                   | `%7C`                          | Vertical bar / Pipe |
+| `}`       | `%7D`                | `%7D`                   | Right curly brace              |                     |
+| `~`       | `%7E`                | `%7E`                   | Tilde                          |                     |
+| `0-9`     | `0-9` (not encoded)  | `0-9` (not encoded)     | Numbers (safe characters)      |                     |
+| `A-Z`     | `A-Z` (not encoded)  | `A-Z` (not encoded)     | Uppercase letters (safe)       |                     |
+| `a-z`     | `a-z` (not encoded)  | `a-z` (not encoded)     | Lowercase letters (safe)       |                     |
+
+---
+
+## Best Practices for URL Encoding in PHP
+
+* Use **`urlencode()`** when encoding **query strings** (the part after `?` in URLs).
+* Use **`rawurlencode()`** when encoding **URL path segments** (like `/path/to/resource`).
+* Always encode dynamic data passed via URLs to avoid broken links and security issues.
+* Use **`htmlspecialchars()`** when displaying values in HTML to prevent Cross-Site Scripting (XSS) attacks.
+
+---
+
