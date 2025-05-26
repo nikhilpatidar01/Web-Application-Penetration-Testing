@@ -74,6 +74,7 @@
 * 🌐 [$\_SERVER](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/4.%20$_SERVER.md#_server)
 * 📎 [$\_FILES](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/5.%20$_FILES.md#_files-upload-in-php)
 * 🍪 [$\_COOKIE](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/6.%20%24_COOKIE.md#_cookie)
+* [$_SESSION](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/7.%20$_SESSION.md#_session)
 
 ---
 
