@@ -1,0 +1,106 @@
+
+# 🔐 X-Content-Type-Options Header
+
+## ✅ What It Does
+
+The `X-Content-Type-Options` HTTP response header prevents **content type sniffing** by the browser. It helps avoid security risks where a browser tries to guess the MIME type of a resource and may execute it in an unsafe way.
+
+---
+
+## 🧾 Corrected Explanation
+
+* The `nosniff` value instructs browsers **not to override** the declared `Content-Type` of a response.
+* This prevents browsers from interpreting files incorrectly (e.g., treating a `.txt` file as JavaScript or CSS).
+* It is a simple but effective protection against **Cross-Site Scripting (XSS)** and **drive-by download attacks**.
+
+---
+
+## 🔒 When to Use
+
+* This header is especially important for:
+
+  * CSS
+  * JavaScript
+  * Fonts
+  * Other MIME-sensitive content
+* Modern browsers respect this header and enforce MIME types strictly, improving your site's security.
+
+---
+
+## ⚙️ Create Two PHP Files for Testing
+
+### ✅ `with-x-content-type-options.php`
+
+```php
+<?php
+// Set the X-Content-Type-Options header to prevent content type sniffing
+header('X-Content-Type-Options: nosniff');
+// Intentionally serve as plain text instead of CSS
+header('Content-Type: text/plain');
+?>
+body {
+    background-color: lightblue;
+}
+```
+
+### ❌ `without-x-content-type-options.php`
+
+```php
+<?php
+// No X-Content-Type-Options header
+// Intentionally serve as plain text instead of CSS
+header('Content-Type: text/plain');
+?>
+body {
+    background-color: lightblue;
+}
+```
+
+---
+
+## 🌐 HTML File to Test: `stylesheets.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>X-Content-Type-Options Test</title>
+
+  <!-- Stylesheet WITH 'nosniff' header -->
+  <link rel="stylesheet" href="with-x-content-type-options.php" />
+
+  <!-- Uncomment below to test WITHOUT 'nosniff' header -->
+  <!-- <link rel="stylesheet" href="without-x-content-type-options.php" /> -->
+</head>
+<body>
+  <h1>X-Content-Type-Options Lab</h1>
+  <p>
+    The background color of this page should be light blue only if the stylesheet loads successfully.
+  </p>
+</body>
+</html>
+```
+
+---
+
+## 🧪 How to Test
+
+1. Open `stylesheets.html` in your browser.
+2. **Expected Results:**
+
+   * With `nosniff`: Browser will block the incorrectly typed stylesheet. No background color change.
+   * Without `nosniff`: Browser may sniff and apply it. Background color **may turn light blue**.
+3. Swap the link in the HTML to toggle between both PHP files.
+
+---
+
+## ✅ Summary
+
+| File                                 | Header                            | Expected Result        |
+| ------------------------------------ | --------------------------------- | ---------------------- |
+| `with-x-content-type-options.php`    | `X-Content-Type-Options: nosniff` | CSS **not applied**    |
+| `without-x-content-type-options.php` | *(No header)*                     | CSS **may be applied** |
+
+---
+
