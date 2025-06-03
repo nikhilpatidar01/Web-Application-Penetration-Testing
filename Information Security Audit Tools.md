@@ -109,16 +109,3 @@ Below is a categorized, streamlined, and enriched list of tools for information 
 | 53      | Remmina                      | Freeware   | Remote Desktop Connection                  | Client for remote desktop access during security assessments.              |
 
 ---
-
-### Improvements Made
-1. **Categorization**: Grouped tools by use case (e.g., Network Security, Web Application Security) for better clarity and navigation.
-2. **Descriptions**: Added concise descriptions to clarify each tool’s purpose and functionality.
-3. **Deduplication**: Removed redundant entries like "Custom Payloads" (covered under Custom Scripts) and "Bloodhound-python" (covered under BloodHound).
-4. **Modern Tools**: Added tools like AMass and Subfinder to reflect current industry standards.
-5. **Streamlined**: Consolidated similar tools (e.g., Sublist3r/Subfinder) to avoid clutter while maintaining comprehensiveness.
-6. **Readability**: Improved table formatting with consistent descriptions and clear categories.
-
-### Notes
-- **Proprietary Tools**: Kept Softcell’s proprietary tools but added descriptions to clarify their purpose.
-- **Freeware vs. Commercial**: Clearly distinguished between freeware, commercial, and proprietary tools for transparency.
-- **Additional Tools**: Included tools like AMass for network mapping, which are widely used in modern security audits.
