@@ -1,0 +1,78 @@
+
+### ✅ Fixed and Complete `typejuggling-login.php` Script:
+
+```
+typejuggling-login.php
+```
+```php
+<?php
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    echo "Submitted password: $password (" . gettype($password) . ")<br />";
+
+    // ⚠️ Vulnerable loose comparison (==) instead of strict (===)
+    if ($username == 'admin' && $password == 0) {
+        echo "You are Logging in: {$username}";
+    } else {
+        echo "Your username or password is incorrect";
+    }
+} else {
+    echo "Please Log in";
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login - Type Juggling Example</title>
+</head>
+<body>
+    <h2>Login Form</h2>
+    <form action="typejuggling-login.php" method="POST">
+        Username: <input type="text" name="username" value=""><br><br>
+        Password: <input type="password" name="password" value=""><br><br>
+        <input type="submit" name="submit" value="Login">
+    </form>
+</body>
+</html>
+```
+
+---
+
+### 🔐 What’s the Vulnerability?
+
+This code uses **`==` (loose comparison)** in:
+
+```php
+if ($username == 'admin' && $password == 0)
+```
+
+This means any input that evaluates to `0` will **pass** the password check.
+
+---
+
+### 🔓 Exploit Example:
+
+If you enter:
+
+* **Username**: `admin`
+* **Password**: `anything`, like `0`, `0abc`, `false`, `null`, or even a string like `==0`
+
+It will allow login because many of those values are type-juggled by PHP to integer `0`.
+
+---
+
+### ✅ Secure Fix (Use Strict Comparison):
+
+To prevent this issue:
+
+```php
+if ($username === 'admin' && $password === '123') {
+    // secure login logic
+}
+```
+
+---
