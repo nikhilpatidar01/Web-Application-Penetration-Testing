@@ -64,58 +64,69 @@
 * 🗃️ [Super Global Variables](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/6.%20Superglobals%20and%20Scope/2.%20Super%20Global%20Variables.md)
 * 🧪 [urlencode vs rawurlencode](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/6.%20Superglobals%20and%20Scope/Urlencode%20and%20Rawurlencode.md)
 
+
 ---
 
-## 📤 Working with Forms & SuperGlobals
+## 📤 Working with Forms & Superglobals
 
-* 🔎 [$\_GET](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/1.%20$_GET.md#_get)
-* ✍️ [$\_POST](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/2.%20%24_POST.md#_post-in-php)
-* 📥 [$\_REQUEST](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/3.%20%24_REQUEST.md#_request-in-php)
-* 🌐 [$\_SERVER](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/4.%20$_SERVER.md#_server)
-* 📎 [$\_FILES](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/5.%20$_FILES.md#_files-upload-in-php)
-* 🍪 [$\_COOKIE](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/6.%20%24_COOKIE.md#_cookie)
-* 🔐 [$_SESSION](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/7.%20$_SESSION.md#_session)
-* [$GLOBALS](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/8.%20%24GLOBALS.md#globals)
+* 🔎 [`$_GET`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/1.%20$_GET.md#_get)
+* ✍️ [`$_POST`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/2.%20%24_POST.md#_post-in-php)
+* 📥 [`$_REQUEST`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/3.%20%24_REQUEST.md#_request-in-php)
+* 🌐 [`$_SERVER`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/4.%20$_SERVER.md#_server)
+* 📎 [`$_FILES`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/5.%20$_FILES.md#_files-upload-in-php)
+* 🍪 [`$_COOKIE`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/6.%20%24_COOKIE.md#_cookie)
+* 🔐 [`$_SESSION`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/7.%20$_SESSION.md#_session)
+* 💡 [`$GLOBALS`](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/7.%20SuperGlobals%20and%20Forms/8.%20%24GLOBALS.md#globals)
+
 ---
 
-## 📤 Security Headers
+## 🛡️ Security Headers
+
 * 🔎 [HTTP Security Response Headers](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/1.%20HTTP%20Security%20Response%20Headers.md#-http-security-response-headers)
-* [Strict-Transport-Security (HSTS)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/2.%20Strict-Transport-Security%20(HSTS).md#strict-transport-security-hsts)
-* [X-Frame-Options Header](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/3.%20X-Frame-Options%20Header.md#x-frame-options-header)
-* [Modifying Headers in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/4.%20Modifying%20Headers.md#modifying-headers-in-php)
-* [Content-Security-Policy (CSP) in ini](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/5.%20Content-Security-Policy%20(CSP).md#%EF%B8%8F-content-security-policy-csp-in-ini)
-* [X-XSS-Protection Header](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/6.%20X-XSS%20Protection%20Header.md#%EF%B8%8F-x-xss-protection-header--php-security-lab)
-* [Referrer-Policy](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/7.%20Referrer%20Policy.md#-referrer-policy)
-* [Same-Origin vs Cross-Origin](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/8.%20Same%20Origin%20vs%20Cross%20Origin.md#-same-origin-vs-cross-origin)
-* [Feature-Policy / Permissions-Policy](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/9.%20Feature-Policy%20(Permissions-Policy).md#-feature-policy--permissions-policy)
-* [X-Content-Type-Options Header](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/9.1.%20X-Content%20Type%20Options%20Header.md#-x-content-type-options-header)
-
----
-## 📤 Regex (Regular Expressions)
-* [Regular Expressions (Regex) in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/9.%20Regex/1.%20Regular%20Expressions%20(Regex).md#php-regular-expressions-regex)
-* [Regular Expressions (Key Functions) in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/9.%20Regex/2.%20Regular%20Expressions%20(Key%20Functions).md#php-regular-expressions---key-functions)
-
----
-## 📤 Encoding and Decoding 
-* [Encode and Decode in PHP (HTML Encoding Functions)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/10.%20Encoding%20and%20Decoding/1.%20Encode%20and%20Decode%20in%20PHP.md#encode-and-decode-in-php-html-encoding-functions)
-* [Base64 Encoding and Decoding in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/10.%20Encoding%20and%20Decoding/2.%20Base64%20Encoding%20and%20Decoding%20in%20PHP.md#base64-encoding-and-decoding-in-php)
-* [Hashing in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/10.%20Encoding%20and%20Decoding/3.%20Hashing%20in%20PHP.md#hashing-in-php)
----
-
-## Including and Requiring Files
-* [Including and Requiring Files in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/1.%20Including%20and%20Requiring%20Files%20in%20PHP.md#including-and-requiring-files-in-php)
-* [What are Filesystem Functions?](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/2.%20Filesystem%20Functions%20in%20PHP.md#-what-are-filesystem-functions)
-* [Error Reporting](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/3.%20Error%20Reporting%20in%20PHP.md#php-error-reporting)
-* [OS Commands Execution](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/4.%20OS%20Commands%20Execution.md#%EF%B8%8F-php-os-commands-execution)
+* 🛡️ [Strict-Transport-Security (HSTS)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/2.%20Strict-Transport-Security%20%28HSTS%29.md#strict-transport-security-hsts)
+* 🖼️ [X-Frame-Options Header](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/3.%20X-Frame-Options%20Header.md#x-frame-options-header)
+* ⚙️ [Modifying Headers in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/4.%20Modifying%20Headers.md#modifying-headers-in-php)
+* 📜 [Content-Security-Policy (CSP)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/5.%20Content-Security-Policy%20%28CSP%29.md#%EF%B8%8F-content-security-policy-csp-in-ini)
+* 🧪 [X-XSS-Protection Header](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/6.%20X-XSS%20Protection%20Header.md#%EF%B8%8F-x-xss-protection-header--php-security-lab)
+* 🔁 [Referrer-Policy](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/7.%20Referrer%20Policy.md#-referrer-policy)
+* 🔄 [Same-Origin vs Cross-Origin](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/8.%20Same%20Origin%20vs%20Cross%20Origin.md#-same-origin-vs-cross-origin)
+* 🚫 [Feature-Policy / Permissions-Policy](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/9.%20Feature-Policy%20%28Permissions-Policy%29.md#-feature-policy--permissions-policy)
+* 📦 [X-Content-Type-Options Header](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/8.%20Security%20Header/9.1.%20X-Content%20Type%20Options%20Header.md#-x-content-type-options-header)
 
 ---
 
-## Form Validation
-* [Form Validation](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/1.%20Form%20Validation.md#-php-form-validation)
-* [Validation Functions2](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/2.%20Form%20Validation2.md#php-validation-functions2)
-* [False Positives in PHP Comparisons](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/3.%20False%20Positives.md#-false-positives-in-php-comparisons)
-* [Type Juggling and Type Casting in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/4.%20Type%20Juggling%20and%20Type%20Casting.md#-type-juggling-and-type-casting-in-php)
-* [Juggling Culnerabilities](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/5.%20Type%20Juggling%20Vulnerabilities%20in%20PHP%20Login%20Forms.md#-fixed-and-complete-typejuggling-loginphp-script)
-* [Common Problems in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/6.%20Common%20Problems%20in%20PHP.md#-common-problems-in-php)
+## 🔤 Regex (Regular Expressions)
+
+* 🧵 [Regex in PHP - Introduction](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/9.%20Regex/1.%20Regular%20Expressions%20%28Regex%29.md#php-regular-expressions-regex)
+* 🔧 [Regex Key Functions in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/9.%20Regex/2.%20Regular%20Expressions%20%28Key%20Functions%29.md#php-regular-expressions---key-functions)
 
 ---
+
+## 🔐 Encoding and Decoding
+
+* 🧬 [Encode & Decode (HTML Encoding)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/10.%20Encoding%20and%20Decoding/1.%20Encode%20and%20Decode%20in%20PHP.md#encode-and-decode-in-php-html-encoding-functions)
+* 📦 [Base64 Encoding/Decoding](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/10.%20Encoding%20and%20Decoding/2.%20Base64%20Encoding%20and%20Decoding%20in%20PHP.md#base64-encoding-and-decoding-in-php)
+* 🔐 [Hashing in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/10.%20Encoding%20and%20Decoding/3.%20Hashing%20in%20PHP.md#hashing-in-php)
+
+---
+
+## 📂 Including and Requiring Files
+
+* 📥 [Include & Require in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/1.%20Including%20and%20Requiring%20Files%20in%20PHP.md#including-and-requiring-files-in-php)
+* 📁 [Filesystem Functions in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/2.%20Filesystem%20Functions%20in%20PHP.md#-what-are-filesystem-functions)
+* ⚠️ [Error Reporting in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/3.%20Error%20Reporting%20in%20PHP.md#php-error-reporting)
+* 💻 [OS Command Execution in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/11.%20Including%20and%20Requiring%20Files/4.%20OS%20Commands%20Execution.md#%EF%B8%8F-php-os-commands-execution)
+
+---
+
+## 📝 Form Validation
+
+* ✅ [Form Validation Basics](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/1.%20Form%20Validation.md#-php-form-validation)
+* 🛠️ [Validation Functions #2](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/2.%20Form%20Validation2.md#php-validation-functions2)
+* ⚖️ [False Positives in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/3.%20False%20Positives.md#-false-positives-in-php-comparisons)
+* 🔁 [Type Juggling & Type Casting](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/4.%20Type%20Juggling%20and%20Type%20Casting.md#-type-juggling-and-type-casting-in-php)
+* 🚨 [Type Juggling Vulnerabilities](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/5.%20Type%20Juggling%20Vulnerabilities%20in%20PHP%20Login%20Forms.md#-fixed-and-complete-typejuggling-loginphp-script)
+* 🛠️ [Common Problems in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/12.%20Form%20Validation/6.%20Common%20Problems%20in%20PHP.md#-common-problems-in-php)
+
+---
+
