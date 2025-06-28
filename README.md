@@ -6,8 +6,6 @@
 * 📦 [Apache2, PHP, and MySQL Setup on Debian](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/01.%20PHP%2C%20VSCode%2C%20Server%20Setup/01.%20Debian%20Apache2%20PHP%20MySQL%20Install%20and%20Setup.md#web-penetration-testing)
 * 🔄 [Configure SFTP-Sync in VS Code](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/01.%20PHP%2C%20VSCode%2C%20Server%20Setup/02.%20sftp-sync%20in%20VS%20Code.md#-how-to-install-and-set-up-sftp-sync-by-natizyskunk)
 
-
-
 ## 🧑‍💻 Introduction to PHP
 
 * 📖 [What is PHP?](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/02.%20Introduction%20of%20PHP/01.%20What%20is%20PHP.md#-php)
