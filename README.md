@@ -15,17 +15,17 @@
 
 ## 🧱 PHP Data Types
 ### 🔢 Scalar Types
-* [Integer & Float](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/01.%20Scalar%20Types/01.%20Integer%20and%20Float.md#-numbers-in-php)
-* [String](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/01.%20Scalar%20Types/02.%20String.md#php-strings)
-* [Boolean](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/01.%20Scalar%20Types/03.%20Boolean.md#what-is-a-boolean)
+* 🔢 [**Integer & Float** — Numbers in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/01.%20Scalar%20Types/01.%20Integer%20and%20Float.md#-numbers-in-php)
+* 🔤 [**String** — Working with Text](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/01.%20Scalar%20Types/02.%20String.md#php-strings)
+* 🟢 [**Boolean** — True or False](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/01.%20Scalar%20Types/03.%20Boolean.md#what-is-a-boolean)
 
 ### 📚 Compound Types
-* [Arrays (Indexed, Associative, Multidimensional)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/02.%20Compound%20Types/01.%20Arrays.md#-arrays-in-php)
-* [Objects](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/02.%20Compound%20Types/02.%20Objects.md#-objects-in-php)
+* 🧮 [**Arrays** — Indexed, Associative, Multidimensional](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/02.%20Compound%20Types/01.%20Arrays.md#-arrays-in-php)
+* 🧱 [**Objects** — OOP in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/02.%20Compound%20Types/02.%20Objects.md#-objects-in-php)
 
 ### 🧩 Special Types
-* [NULL & Empty](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/03.%20Special%20Types/01.%20NULL%20and%20Empty.md#null-and-empty-in-php)
-* [Resource](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/03.%20Special%20Types/02.%20Resource.md#resource-in-php)
+* 🚫 [**NULL & Empty** — Handling Absence of Value](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/03.%20Special%20Types/01.%20NULL%20and%20Empty.md#null-and-empty-in-php)
+* 🧪 [**Resource** — External References in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/03.%20Special%20Types/02.%20Resource.md#resource-in-php)
 
 ## 📝 Basic PHP Concepts
 * 💬 [Using Comments in PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/04.%20PHP%20Data%20Types/PHP%20Comments.md#-php-script-understanding-comments)
