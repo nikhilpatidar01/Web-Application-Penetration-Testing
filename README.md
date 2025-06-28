@@ -11,7 +11,7 @@
 ## 🧑‍💻 Introduction to PHP
 
 * 📖 [What is PHP?](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/02.%20Introduction%20of%20PHP/01.%20What%20is%20PHP.md#-php)
-* 💾 [What is MySQL?](hhttps://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/02.%20Introduction%20of%20PHP/02.%20What%20is%20MySQL.md#-mysqll)
+* 💾 [What is MySQL?](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/1.%20PHP%20Basics%20with%20VSCode/02.%20Introduction%20of%20PHP/02.%20What%20is%20MySQL.md#-mysql)
 
 ---
 
