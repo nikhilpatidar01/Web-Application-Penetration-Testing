@@ -169,8 +169,14 @@
 * 🛠️ [Updating Records with PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/2.%20MySQL/02.%20PHP%20%2B%20MySQL/06.%20Updating%20Records%20with%20PHP.md#-creating-records-with-php)
 * 🛠️ [Delete Records with PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/2.%20MySQL/02.%20PHP%20%2B%20MySQL/07.%20Delete%20Records%20with%20PHP.md#%EF%B8%8F-what-is-delete-records-with-php)
 * 🛠️ [View Records with PHP](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/2.%20MySQL/02.%20PHP%20%2B%20MySQL/08.%20View%20Records%20with%20PHP.md#-what-is-view-records-with-php)
-* 🛠️ [Object-Oriented Programming in PHP (OOP)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/2.%20MySQL/OOP%20(Object%20Oriented%20Programming).md#-object-oriented-programming-in-php-oop)
-* 🛠️ [Enhanced Information Security Audit Tools](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/Information%20Security%20Audit%20Tools.md#%EF%B8%8F-enhanced-information-security-audit-tools)
-* 🛠️ [https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/Offensive%20Prompt%20Field%20Guide.md#kali-gpt-offensive-prompt-field-guide-](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/Offensive%20Prompt%20Field%20Guide.md#kali-gpt-offensive-prompt-field-guide-)
 
+---
+
+# 📘 Other 
+
+* 🛠️ [Enhanced Information Security Audit Tools](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/Other/01.%20%20Information%20Security%20Audit%20Tools.md#%EF%B8%8F-enhanced-information-security-audit-tools)
+* 🛠️ [Kali GPT Offensive Prompt Field Guide](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/Other/02.%20%20Offensive%20Prompt%20Field%20Guide.md#kali-gpt-offensive-prompt-field-guide-)
+* 🛠️ [Object-Oriented Programming in PHP (OOP)](https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/blob/Master/Other/03.%20%20OOP%20(Object%20Oriented%20Programming).md#-object-oriented-programming-in-php-oop)
+
+---
 
