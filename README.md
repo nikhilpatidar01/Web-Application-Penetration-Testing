@@ -131,7 +131,7 @@
 
 ---
 
-# 📘 **MySQL – Database Deep Dive**
+# 📘 **MySQL – Database**
 
 ### 🧱 **Basic Concepts & Table Operations**
 
