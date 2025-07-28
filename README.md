@@ -13,10 +13,10 @@
 
 ## 🤝 Contributing
 
-Feel free to contribute by adding similar content to this repository.
+Feel free to contribute by adding similar content to this repository.  
 Your help in improving the documents and making them more valuable is always appreciated.
 
-<a href="https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/graphs/contributors">
+<a href="https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing">
   <img src="https://contrib.rocks/image?repo=nikhilpatidar01/Web-Application-Penetration-Testing" />
 </a>
  
