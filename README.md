@@ -22,21 +22,3 @@ Your help in improving the documents and making them more valuable is always app
 
  
 ---
-## 🤝 Contributing
-
-Feel free to contribute by adding similar content to this repository.  
-Your help in improving the documents and making them more valuable is always appreciated.
-
-<a href="https://github.com/nikhilpatidar01/Web-Application-Penetration-Testing/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nikhilpatidar01/Web-Application-Penetration-Testing" />
-</a>
-
-### 🙌 Contributors
-
-Thanks to these amazing folks who made this project better:
-
-- 👨‍💻 [@nikhilpatidar01](https://github.com/nikhilpatidar01) (Nikhil Patidar)
-- 🧠 [@vivek-keshri007](https://github.com/vivek-keshri007) (Vivek Keshri)
-- 💡 [@RishitaShahh](https://github.com/RishitaShahh) (Rishita Shah)
-
-> ⚠️ If your contribution isn't reflected in the image, don’t worry — you still rock! We value every issue, PR, and suggestion.
