@@ -1,0 +1,67 @@
+
+## **OWASP Juice Shop – API-Based Application**
+
+**Concept**
+
+* In an API-based application, the **frontend loads only once**.
+* Data is fetched in **JSON format**, making the application faster.
+* By **mapping JavaScript files**, you can identify the **endpoints** and **application structure**.
+* First, understand the concept — how the app works, its structure, and its overall design.
+
+---
+
+### **Process to Find Endpoints**
+
+1. **Open OWASP Juice Shop**
+
+   ```
+   http://10.93.53.145:3000
+   ```
+
+2. **Check Source Code**
+
+   * Shortcut: `Ctrl + U`
+   * Look for JavaScript files:
+
+     ```
+     runtime.js
+     polyfills.js
+     vendor.js
+     main.js
+     ```
+
+3. **HTML Structure Example**
+
+   ```html
+   <app-root></app-root>
+   <script src="runtime.js" type="module"></script>
+   <script src="polyfills.js" type="module"></script>
+   <script src="vendor.js" type="module"></script>
+   <script src="main.js" type="module"></script>
+   ```
+
+---
+
+### **Tools (Automatic Endpoint Discovery)**
+
+* In **Burp Suite**, install the extension **JS Miner**.
+
+---
+
+### **Manual Method**
+
+1. Download the JavaScript files: `runtime.js`, `polyfills.js`, `vendor.js`, `main.js`.
+2. Beautify arrange Readable formate:
+
+   * **Website:** [beautifier.io](https://beautifier.io)
+   * **Tool:** js-beautify (v1.15.4)
+3. Open the beautified files in **Sublime Text Editor**.
+4. Search for endpoints — Example:
+
+   ```
+   http://10.93.53.145:3000/#/score-board#/
+   ```
+
+---
+
+I can now turn this into a **professional penetration testing flowchart** so you can visually follow each step when analyzing Juice Shop. That way, you’ll have both a text guide and a visual reference for CTFs and labs.
