@@ -1,4 +1,4 @@
-
+# **OWASP Juice Shop Endpoint Find**
 ## **OWASP Juice Shop – API-Based Application**
 
 **Concept**
@@ -63,5 +63,3 @@
    ```
 
 ---
-
-I can now turn this into a **professional penetration testing flowchart** so you can visually follow each step when analyzing Juice Shop. That way, you’ll have both a text guide and a visual reference for CTFs and labs.
