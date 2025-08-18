@@ -127,4 +127,4 @@ echo "Urlencode Page + Rawurlencode Quote: <a href=\"$link2\">$link2</a><br />";
 * Use **`htmlspecialchars()`** when displaying values in HTML to prevent Cross-Site Scripting (XSS) attacks.
 
 ---
-
+📖 Reference: Notes inspired by guidance from Mr. Sachin Verma Sir ([Armour Infosec](https://www.armourinfosec.com/)) and enriched with further improvements and updates.
